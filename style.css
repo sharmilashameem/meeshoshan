@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: -apple-system, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header Styling - Based on your .eLGJNy class */
+.desktop-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 12px 0;
+}
+
+.header-container {
+    max-width: 1328px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #9f2089; /* The signature Meesho Pink/Purple */
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Search Bar - Based on your .ccqFBY class */
+.search-container input {
+    width: 400px;
+    padding: 10px 15px;
+    border: 1px solid #8B8BA3;
+    border-radius: 4px;
+    outline: none;
+}
+
+/* Gold Section / Hero - Based on your .hBCqAZ class */
+.gold-section {
+    margin-top: 80px;
+    height: 400px;
+    background-color: #998b31; /* The gold background from your snippet */
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: white;
+}
+
+.shop-now-btn {
+    background: white;
+    color: #9f2089;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
